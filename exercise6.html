@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(49, 240, 23);
+        margin: 10px;
+       
+    }
+    body{
+        display: grid;
+        flex-direction: row;
+        gap: 30px;
+        grid-template-columns: auto auto auto;
+    }
+    @media only screen and (max-width:600px) {
+        body {
+            display: grid;
+           
+            gap: 10px;
+        }
+    }
+    
+    @media only screen and (max-width:400px) {
+       body {
+           display: grid;
+           grid-template-columns: auto;
+          
+           
+        }
+    }
+</style>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+    
+</body>
+</html>
